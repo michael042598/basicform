@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel= "stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Document</h1>
+		<form class="login-form">
+			<div class="field-holder">
+				<label>FullName: </label> 
+				<input type="text" name="fullname" size="35" placeholder=" Last Name, First Name, Middle Initial">
+			</div>
+			<div class="field-holder">
+				<label>Gender:</label>
+				<select name="Gender:">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option><br>
+				</select> 
+			</div>
+			<div class="field-holder bday-holder">
+				<label>Birthday:</label> 
+				<input type="date" name="birthdate"><br>
+			</div>
+
+			<input type="submit" id="sub" value="Submit" onclick="myFunction()">
+				
+		</form>
+		
+		<script src="script.js"></script>
+	</body>
+</html>
